@@ -11,6 +11,7 @@ DB_PATH = "banking.db"
 ADMIN_PASSWORD = "admin123"  # Hardcoded password
 SECRET_KEY = "my-secret-key-12345"  # Hardcoded secret
 
+#prueba de seguridad
 class LoginManager:
     """
     ARCHITECTURE ISSUE: God class - does too many things
