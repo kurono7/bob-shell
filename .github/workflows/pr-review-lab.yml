@@ -39,7 +39,7 @@ jobs:
           BOBSHELL_API_KEY: ${{ secrets.BOBSHELL_API_KEY }}
         run: |
           echo "Ejecutando Bob para probar si puede acceder a los archivos..."
-          bob --accept-license --yolo -p "Por favor usa la skill de 'code-review' para analizar los cambios de este PR" > /tmp/review.md 2>&1
+          bob --accept-license --yolo -p "Por favor usa la skill de 'espacios-skill' para analizar los cambios de este PR" > /tmp/review.md 2>&1
 
       - name: Post Review Comment
         uses: actions/github-script@v7
